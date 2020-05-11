@@ -29,18 +29,18 @@ $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
     - SPI (3 Wire Serial) Intel FPGA IP
         
 3.  Run the Quartus&reg; Prime Tool to restore (unzip)the Nios&reg; II processor system, then:
-  - From the Quartus Menu, choose Project -> Restored Archived Project
-  - For the Archive name, fill with: "path to your projects folder"/Nios-NodeMCU-RemoteDataMonitoring/soc_nios.qar
-  - Click: Ok
-  - From the Menu, choose Processing -> Start -> Start Compilation
-  - Wait until the design compilation completes
-  - Connect the FPGA Development Board (DE0-NANO) to the any USB port on your computer
-  - From the Taskbar, click the Device Programmer icon
-  - Click on "Hardware Setup..." and double-click "USB Blaster" then click Close 
-  - Click "Add File...", browse to the folder "output_files" in the "soc_nios_restored" folder, select the "soc_nios.sof" file and click Open
-  - Click Start to start programming the FPGA device connected to your computer
+    - From the Quartus Menu, choose Project -> Restored Archived Project
+    - For the Archive name, fill with: "path to your projects folder"/Nios-NodeMCU-RemoteDataMonitoring/soc_nios.qar
+    - Click: Ok
+    - From the Menu, choose Processing -> Start -> Start Compilation
+    - Wait until the design compilation completes
+    - Connect the FPGA Development Board (DE0-NANO) to the any USB port on your computer
+    - From the Taskbar, click the Device Programmer icon
+    - Click on "Hardware Setup..." and double-click "USB Blaster" then click Close 
+    - Click "Add File...", browse to the folder "output_files" in the "soc_nios_restored" folder, select the "soc_nios.sof" file and click Open
+    - Click Start to start programming the FPGA device connected to your computer
 
-4. Writing the program to run on the Nios&reg; II:
+4. Setting up the program to run on the Nios&reg; II:
     - From the Quartus&reg; Prime Menu, choose Tools -> Nios II Software Build Tools for Eclipse
     - When prompted for the Workspace, browse to "your projects folder"/soc_nios_restored/software
     - Click OK
@@ -50,7 +50,8 @@ $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
     - In the Project template, select the "Blank Project" template and click Finish
     - In the Project Explorer view, Right click on "nios_program", choose New -> Source File
     - For the Source file, fill with:"main.c"
-    - For Template, Choose -> Default C source template 
+    - For Template, Choose -> Default C source template
+    - Copy "main.c" file from "path to your projects folder"/Nios-NodeMCU-RemoteDataMonitoring to Nios-NodeMCU-RemoteDataMonitoring/soc_nios_restored/software then click Replace the file in the destination.
     - To build the project, select "nios_program", from the Menu, choose Project -> Build Project
     - To run the C program, select "nios_program", from the Menu, choose Run -> Run As -> Nios II Hardware
     - In the Run Configurations dialog box, click the Target Connection tab, click Refresh Connections, then click Run
@@ -59,5 +60,5 @@ $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Ammar-Reda/FSMD-MatrixMultiplication/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring/blob/master/LICENSE) file for details
 
