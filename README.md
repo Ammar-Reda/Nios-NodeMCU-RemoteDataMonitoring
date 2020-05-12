@@ -9,16 +9,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 These examples use [ModelSim® and Quartus® Prime from Intel FPGA](http://fpgasoftware.intel.com/?edition=lite), [GIT](https://git-scm.com/download/win), [Arduino IDE](https://www.arduino.cc/en/main/Software), make sure they are installed locally on your computer before proceeding.
 
+### NodeMCU Env
+For setting up the nodeMCU enviromente please visit:
+    [Getting Started With ESP8266(LiLon NodeMCU V3)](https://www.instructables.com/id/Getting-Started-With-ESP8266LiLon-NodeMCU-V3Flashi/)
 
-### Installing
-
-A step by step series of commands and steps that guide you how to get the project env running
+### Nios II Env
+A step by step series of commands that guide you how to get the project env running
 
 1.Grab a copy of this repository to your computer's local folder (i.e. C:\projects):
-```
-$ cd projects
-$ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
-```
+    ```
+    $ cd projects
+    $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
+    ```
 2. The example System on Chip design consists of:
     - Nios&reg; II processor
     - On-Chip memory
@@ -57,6 +59,10 @@ $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
     - In the Run Configurations dialog box, click the Target Connection tab, click Refresh Connections, then click Run
     - The Nios II SBT for Eclipse downloads the program to the FPGA on the target board and executes the code
 
+## Referencing and Inspiration
+    [SoC-Nios](https://github.com/ihabadly/SoC-Nios)
+    [Getting Started With ESP8266(LiLon NodeMCU V3)](https://www.instructables.com/id/Getting-Started-With-ESP8266LiLon-NodeMCU-V3Flashi/)
+    [ESP8266 DHT11/DHT22 Temperature and Humidity Web Server with Arduino IDE](https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/)   
 
 ## License
 
