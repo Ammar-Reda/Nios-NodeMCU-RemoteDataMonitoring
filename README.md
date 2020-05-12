@@ -60,9 +60,9 @@ $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
     - The Nios II SBT for Eclipse downloads the program to the FPGA on the target board and executes the code
 
 ## Referencing and Inspiration
-[SoC-Nios](https://github.com/ihabadly/SoC-Nios)
+[SoC-Nios](https://github.com/ihabadly/SoC-Nios), 
 [Getting Started With ESP8266(LiLon NodeMCU V3)](https://www.instructables.com/id/Getting-Started-With-ESP8266LiLon-NodeMCU-V3Flashi/)
-[ESP8266 DHT11/DHT22 Temperature and Humidity Web Server with Arduino IDE](https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/)   
+, [ESP8266 DHT11/DHT22 Temperature and Humidity Web Server with Arduino IDE](https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/)   
 
 ## License
 
