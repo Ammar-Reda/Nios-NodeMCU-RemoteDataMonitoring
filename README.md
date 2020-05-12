@@ -17,10 +17,10 @@ For setting up the nodeMCU enviromente please visit:
 A step by step series of commands that guide you how to get the project env running
 
 1.Grab a copy of this repository to your computer's local folder (i.e. C:\projects):
-    ```
-    $ cd projects
-    $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
-    ```
+```
+$ cd projects
+$ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
+```
 2. The example System on Chip design consists of:
     - Nios&reg; II processor
     - On-Chip memory
@@ -47,7 +47,7 @@ A step by step series of commands that guide you how to get the project env runn
     - When prompted for the Workspace, browse to "your projects folder"/soc_nios_restored/software
     - Click OK
     - From the Nios II - Eclipse Menu, choose File -> New -> Nios II Application and BSP from Template
-    - For SOPC Information File name, browse to "your projects folder>/nios-system and open the SOPC Information File: nios_system.sopcinfo
+    - For SOPC Information File name, browse to "your projects folder"/soc_nios_restored and open the SOPC Information File: nios_system.sopcinfo
     - In the Project name field, type: nios_program
     - In the Project template, select the "Blank Project" template and click Finish
     - In the Project Explorer view, Right click on "nios_program", choose New -> Source File
@@ -60,9 +60,9 @@ A step by step series of commands that guide you how to get the project env runn
     - The Nios II SBT for Eclipse downloads the program to the FPGA on the target board and executes the code
 
 ## Referencing and Inspiration
-    [SoC-Nios](https://github.com/ihabadly/SoC-Nios)
-    [Getting Started With ESP8266(LiLon NodeMCU V3)](https://www.instructables.com/id/Getting-Started-With-ESP8266LiLon-NodeMCU-V3Flashi/)
-    [ESP8266 DHT11/DHT22 Temperature and Humidity Web Server with Arduino IDE](https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/)   
+[SoC-Nios](https://github.com/ihabadly/SoC-Nios)
+[Getting Started With ESP8266(LiLon NodeMCU V3)](https://www.instructables.com/id/Getting-Started-With-ESP8266LiLon-NodeMCU-V3Flashi/)
+[ESP8266 DHT11/DHT22 Temperature and Humidity Web Server with Arduino IDE](https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/)   
 
 ## License
 
