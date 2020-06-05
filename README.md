@@ -59,6 +59,9 @@ $ git clone https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring.git
     - In the Run Configurations dialog box, click the Target Connection tab, click Refresh Connections, then click Run
     - The Nios II SBT for Eclipse downloads the program to the FPGA on the target board and executes the code
 
+## Demo video 
+[Demo video for the project](https://www.youtube.com/watch?v=APfKVNAJSIc)
+
 ## Referencing and Inspiration
 [SoC-Nios](https://github.com/ihabadly/SoC-Nios), 
 [Getting Started With ESP8266(LiLon NodeMCU V3)](https://www.instructables.com/id/Getting-Started-With-ESP8266LiLon-NodeMCU-V3Flashi/)
