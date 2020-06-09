@@ -1,7 +1,7 @@
 # Nios-NodeMCU-RemoteDataMonitoring
 An SoC design based on Nios® II soft-core processor with SPI and UART off-the-shelf IPs, Nios II interfaces with analog sensors connected to MCP3008 ADC through SPI protocol and sends the readings to a wireless module (NodeMCU) through UART protocol, Then, NodeMCU displays the readings on the web application.
 
-[See the ppt](https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring/blob/master/ppt.pptx)
+[for more information](https://github.com/Ammar-Reda/Nios-NodeMCU-RemoteDataMonitoring/blob/master/ppt.pptx)
 
 ## Getting Started
 
